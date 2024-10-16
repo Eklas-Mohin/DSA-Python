@@ -3,9 +3,13 @@ def main():
     print('Unsorted Array:', arr, '\n')
     
     for i in range(len(arr) - 1):
+        is_swapped = False
         for j in range(len(arr) - i - 1):
             if arr[j] > arr[j + 1]:
                 arr[j], arr[j + 1] = arr[j + 1], arr[j]
+                is_swapped = True
+        if is_swapped == False:
+            break
                 
     print('Sorted Array:  ', arr)
     
