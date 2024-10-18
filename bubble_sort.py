@@ -12,7 +12,6 @@ def bubble_sort(arr):
         if not swapped:
             break
 
-
 def main():
     arr = [17, 23, 7, 59, 73, 13, 37, 53, 47]
 
