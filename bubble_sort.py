@@ -19,6 +19,5 @@ def main():
     bubble_sort(arr)
     print('Sorted Array:  ', arr)
 
-
 if __name__ == '__main__':
     main()
